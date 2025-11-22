@@ -41,26 +41,25 @@ const ArticlePage: React.FC = () => {
     "@type": "Article",
     "headline": article.title,
     "description": article.seoDescription,
-    "image": `https://solarisinovations.in${article.image}`,
+    "image": `https://aesolarsystems.in${article.image}`,
     "author": {
       "@type": "Person",
       "name": article.author
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Solaris Inovations",
+      "name": "AE Solar",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://solarisinovations.in/logo.png"
+        "url": "https://aesolarsystems.in/logo512.png"
       }
     },
     "datePublished": article.publishDate,
     "dateModified": article.publishDate,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://solarisinovations.in/blog/${article.slug}`
+      "@id": `https://aesolarsystems.in/blog/${article.slug}`
     },
-    "keywords": article.seoKeywords.join(", "),
     "articleSection": "Solar Energy",
     "wordCount": article.content.split(' ').length
   };
@@ -87,7 +86,6 @@ const ArticlePage: React.FC = () => {
       <Helmet>
         <title>{article.seoTitle}</title>
         <meta name="description" content={article.seoDescription} />
-        <meta name="keywords" content={article.seoKeywords.join(', ')} />
         <meta name="author" content={article.author} />
         
         {/* Social meta removed */}
@@ -99,7 +97,24 @@ const ArticlePage: React.FC = () => {
         <meta name="distribution" content="global" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href={`https://solarisinovations.in/blog/${article.slug}`} />
+        <link rel="canonical" href={`https://aesolarsystems.in/blog/${article.slug}`} />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://aesolarsystems.in/blog/${article.slug}`} />
+        <meta property="og:title" content={article.seoTitle} />
+        <meta property="og:description" content={article.seoDescription} />
+        <meta property="og:image" content={`https://aesolarsystems.in${article.image}`} />
+        <meta property="article:published_time" content={article.publishDate} />
+        <meta property="article:author" content={article.author} />
+        <meta property="article:section" content="Solar Energy" />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={`https://aesolarsystems.in/blog/${article.slug}`} />
+        <meta name="twitter:title" content={article.seoTitle} />
+        <meta name="twitter:description" content={article.seoDescription} />
+        <meta name="twitter:image" content={`https://aesolarsystems.in${article.image}`} />
         
         {/* Structured Data */}
         <script type="application/ld+json">
@@ -253,10 +268,6 @@ const ArticlePage: React.FC = () => {
                       <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
                         <Share2 className="h-4 w-4 mr-2" />
                         Share
-                      </button>
-                      <button className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
-                        <MessageCircle className="h-4 w-4 mr-2" />
-                        WhatsApp
                       </button>
                     </div>
                   </div>

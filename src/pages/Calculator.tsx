@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Sun, Calculator as CalculatorIcon, Zap, Phone, MessageCircle } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const Calculator: React.FC = () => {
   const [monthlyBill, setMonthlyBill] = useState('');
@@ -38,6 +39,20 @@ const Calculator: React.FC = () => {
   };
 
   return (
+    <>
+      <Helmet>
+        <title>Solar Cost Calculator - Calculate Solar Installation Cost & Savings | AE Solar</title>
+        <meta name="description" content="Free solar cost calculator for East Godavari. Calculate solar panel installation cost, savings, ROI, and PM Solar Scheme subsidies. Get instant quote for residential, commercial & industrial solar systems." />
+        <meta name="keywords" content="solar cost calculator, solar installation cost calculator, solar panel price calculator, solar savings calculator, PM solar scheme calculator, solar ROI calculator East Godavari" />
+        <link rel="canonical" href="https://aesolarsystems.in/solar-calculator" />
+        <meta property="og:url" content="https://aesolarsystems.in/solar-calculator" />
+        <meta property="og:title" content="Solar Cost Calculator - Calculate Installation Cost & Savings" />
+        <meta property="og:description" content="Free solar cost calculator. Calculate installation cost, savings, and PM Solar Scheme subsidies for your solar system." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Solar Cost Calculator - AE Solar" />
+        <meta name="twitter:description" content="Calculate your solar installation cost, savings, and subsidies instantly." />
+      </Helmet>
     <div className="pt-16 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
       {/* Hero Section */}
       <section className="relative text-white py-20 text-center overflow-hidden">
@@ -188,13 +203,6 @@ const Calculator: React.FC = () => {
                     <h3 className="text-xl font-bold mb-3">Ready to Go Solar?</h3>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center">
                       <a
-                        href="tel:+918019355353"
-                        className="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-                      >
-                        <Phone className="inline h-4 w-4 mr-2" />
-                        Call Now: +91 80193 55353
-                      </a>
-                      <a
                         href="/contact"
                         className="bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
                       >
@@ -210,6 +218,7 @@ const Calculator: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

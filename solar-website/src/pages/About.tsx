@@ -37,27 +37,6 @@ const About: React.FC = () => {
     }
   ];
 
-  const team = [
-    {
-      name: "Rajesh Kumar",
-      position: "CEO & Founder",
-      experience: "15+ years in renewable energy",
-      expertise: "Solar system design & business development"
-    },
-    {
-      name: "Priya Sharma",
-      position: "Technical Director",
-      experience: "12+ years in solar engineering",
-      expertise: "System optimization & quality control"
-    },
-    {
-      name: "Amit Patel",
-      position: "Operations Manager",
-      experience: "10+ years in project management",
-      expertise: "Installation & customer service"
-    }
-  ];
-
   const certifications = [
     "ISO 9001:2015 Quality Management",
     "BIS Certified Solar Panels",
@@ -77,7 +56,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Solaris Innovations
+            About AE Solar
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -104,7 +83,7 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2014, Solaris Innovations began with a simple mission: to make solar energy 
+                Founded in 2014, AE Solar began with a simple mission: to make solar energy 
                 accessible and affordable for every household and business in Telangana.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -210,50 +189,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600">
-              Experienced professionals dedicated to your solar success
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white p-6 rounded-lg shadow-lg text-center"
-              >
-                <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-yellow-600 font-medium mb-3">
-                  {member.position}
-                </p>
-                <p className="text-gray-600 mb-2">
-                  <strong>Experience:</strong> {member.experience}
-                </p>
-                <p className="text-gray-600">
-                  <strong>Expertise:</strong> {member.expertise}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Certifications */}
       <section className="py-20 bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -319,24 +254,9 @@ const About: React.FC = () => {
             Ready to Work with Us?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join our growing family of satisfied customers and experience the Solaris Innovations difference
+            Join our growing family of satisfied customers and experience the AE Solar difference
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+918019355353"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-                              Call Now: +91 80193 55353
-            </a>
-            <a
-              href="https://wa.me/918019355353"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-              WhatsApp Us
-            </a>
           </div>
         </div>
       </section>

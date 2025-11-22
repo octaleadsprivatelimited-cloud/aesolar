@@ -58,7 +58,7 @@ const Landing: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Sun className="h-8 w-8 sm:h-10 sm:w-10 text-yellow-400 mr-2 sm:mr-3" />
-              <h1 className="text-xl sm:text-2xl font-bold text-white">Solaris Innovations</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-white">AE Solar</h1>
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4">
               <button
@@ -67,11 +67,6 @@ const Landing: React.FC = () => {
               >
                 Contact Us
               </button>
-              <a href="tel:+918019355353" className="text-white hover:text-yellow-400 transition-colors text-sm sm:text-base">
-                <Phone className="h-4 w-4 sm:h-5 sm:w-5 inline mr-1" />
-                <span className="hidden sm:inline">+91 80193 55353</span>
-                <span className="sm:hidden">+91 80193 55353</span>
-              </a>
             </div>
           </div>
         </div>
@@ -126,7 +121,7 @@ const Landing: React.FC = () => {
       <section className="py-16 bg-white/5">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-12">
-            Why Choose Solaris Innovations?
+            Why Choose AE Solar?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -350,24 +345,6 @@ const Landing: React.FC = () => {
               Limited time offer. Get your free consultation today and start saving on electricity bills.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+918019355353"
-                className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now: +91 80193 55353
-              </a>
-              <a
-                href="https://wa.me/918019355353"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
-              >
-                <MessageCircle className="mr-2 h-5 w-5" />
-                WhatsApp Us
-              </a>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -375,7 +352,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300">
         <div className="max-w-4xl mx-auto px-4">
-          <p>&copy; 2024 Solaris Innovations. All rights reserved. | ISO 9001:2015 Certified</p>
+          <p>&copy; 2025 AE Solar Systems. All rights reserved. | ISO 9001:2015 Certified</p>
           <p className="mt-2">Serving Telangana: Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar</p>
         </div>
       </footer>
@@ -396,7 +373,7 @@ const Landing: React.FC = () => {
                     <Sun className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h2 className="text-xl font-bold text-gray-900">Contact Solaris Innovations</h2>
+                    <h2 className="text-xl font-bold text-gray-900">Contact AE Solar</h2>
                     <p className="text-gray-600 text-sm">Get ₹78,000 Subsidy</p>
                   </div>
                 </div>
@@ -511,14 +488,6 @@ const Landing: React.FC = () => {
                 </motion.div>
               )}
 
-              <div className="mt-4 text-center">
-                <p className="text-gray-500 text-sm">
-                  Or call us directly: 
-                  <a href="tel:+918019355353" className="text-yellow-600 font-semibold ml-1">
-                    +91 80193 55353
-                  </a>
-                </p>
-              </div>
             </div>
           </motion.div>
         </div>

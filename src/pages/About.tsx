@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
   Award, 
   Users, 
@@ -15,7 +16,7 @@ const About: React.FC = () => {
     { number: "500+", label: "Successful Installations", icon: <CheckCircle className="h-8 w-8" /> },
     { number: "50+", label: "Expert Team Members", icon: <Users className="h-8 w-8" /> },
     { number: "10+", label: "Years of Experience", icon: <Award className="h-8 w-8" /> },
-    { number: "15", label: "Cities Served", icon: <Globe className="h-8 w-8" /> }
+    { number: "35+", label: "Cities, Towns & Villages Served", icon: <Globe className="h-8 w-8" /> }
   ];
 
   const values = [
@@ -37,27 +38,6 @@ const About: React.FC = () => {
     }
   ];
 
-  const team = [
-    {
-      name: "Rajesh Kumar",
-      position: "CEO & Founder",
-      experience: "15+ years in renewable energy",
-      expertise: "Solar system design & business development"
-    },
-    {
-      name: "Priya Sharma",
-      position: "Technical Director",
-      experience: "12+ years in solar engineering",
-      expertise: "System optimization & quality control"
-    },
-    {
-      name: "Amit Patel",
-      position: "Operations Manager",
-      experience: "10+ years in project management",
-      expertise: "Installation & customer service"
-    }
-  ];
-
   const certifications = [
     "ISO 9001:2015 Quality Management",
     "BIS Certified Solar Panels",
@@ -67,6 +47,20 @@ const About: React.FC = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>About AE Solar - Leading Solar Company in East Godavari, Andhra Pradesh</title>
+        <meta name="description" content="AE Solar is a leading solar panel installation company in East Godavari, Andhra Pradesh. 10+ years of experience, 500+ installations across Rajahmundry, Kakinada, Amalapuram and all towns in East Godavari district." />
+        <meta name="keywords" content="about AE Solar, solar company East Godavari, solar installation company Kakinada, solar experts Rajahmundry, solar panel installers Andhra Pradesh" />
+        <link rel="canonical" href="https://aesolarsystems.in/about" />
+        <meta property="og:url" content="https://aesolarsystems.in/about" />
+        <meta property="og:title" content="About AE Solar - Leading Solar Company in East Godavari" />
+        <meta property="og:description" content="AE Solar: 10+ years of experience, 500+ installations across East Godavari district. Professional solar solutions with PM Solar Scheme subsidies." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About AE Solar" />
+        <meta name="twitter:description" content="Leading solar company in East Godavari with 10+ years of experience and 500+ successful installations." />
+      </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative text-white py-20 overflow-hidden">
@@ -85,7 +79,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Solaris Innovations
+            About AE Solar
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -93,7 +87,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Leading solar energy company in Telangana, serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, and Jagtial. Committed to providing sustainable 
+            Leading solar energy company in East Godavari, Andhra Pradesh, serving Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram, and all towns and villages across East Godavari district. Committed to providing sustainable 
             energy solutions, solar panel installation, and exceptional customer service across the state.
           </motion.p>
         </div>
@@ -112,7 +106,7 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2011, Solaris Innovations began with a clear mission: to make solar energy 
+                Founded in 2011, AE Solar began with a clear mission: to make solar energy 
                 accessible and affordable for households and businesses across India.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -216,50 +210,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600">
-              Experienced professionals dedicated to your solar success
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white p-6 rounded-lg shadow-lg text-center"
-              >
-                <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-yellow-600 font-medium mb-3">
-                  {member.position}
-                </p>
-                <p className="text-gray-600 mb-2">
-                  <strong>Experience:</strong> {member.experience}
-                </p>
-                <p className="text-gray-600">
-                  <strong>Expertise:</strong> {member.expertise}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Certifications */}
       <section className="py-12 sm:py-16 lg:py-20 bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -297,12 +247,12 @@ const About: React.FC = () => {
               Service Areas
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 px-4">
-              We proudly serve these cities in Telangana
+              We proudly serve these cities, towns, and villages in East Godavari, Andhra Pradesh
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 lg:gap-6">
-            {['Hyderabad', 'Karimnagar', 'Warangal', 'Nizamabad', 'Khammam', 'Ramagundam', 'Mahabubnagar', 'Adilabad', 'Nalgonda', 'Medak', 'Rangareddy', 'Suryapet', 'Miryalaguda', 'Siddipet', 'Jagtial'].map((city, index) => (
+            {['Rajahmundry', 'Kakinada', 'Amalapuram', 'Tuni', 'Peddapuram', 'Pithapuram', 'Mandapeta', 'Razole', 'Ramachandrapuram', 'Mummidivaram', 'Kothapeta', 'Samalkot', 'Yeleswaram', 'Gollaprolu', 'Tallarevu', 'Uppalaguptam', 'Malikipuram', 'Allavaram', 'Katrenikona', 'I. Polavaram', 'Devipatnam', 'Maredumilli', 'Y. Ramavaram', 'Addateegala', 'Rajanagaram', 'Anaparthy', 'Kadiam', 'Sankhavaram', 'Kotananduru', 'Alamuru', 'Atreyapuram', 'Ravulapalem', 'Kapileswarapuram', 'Karapa', 'Thondangi', 'Sakhinetipalli', 'Ainavilli', 'Ambajipeta'].map((city, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -325,28 +275,12 @@ const About: React.FC = () => {
             Ready to Work with Us?
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Join our growing family of satisfied customers and experience the Solaris Innovations difference
+            Join our growing family of satisfied customers and experience the AE Solar difference
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-            <a
-              href="tel:+918019355353"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors inline-flex items-center justify-center"
-            >
-              <Phone className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              Call Now: +91 80193 55353
-            </a>
-            <a
-              href="https://wa.me/918019355353"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors"
-            >
-              WhatsApp Us
-            </a>
-          </div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 

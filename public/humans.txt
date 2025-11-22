@@ -1,15 +1,15 @@
 /* TEAM */
     Founder: Rajesh Kumar
-    Site: https://solarisinovations.in
-    Location: Hyderabad, Telangana, India
+    Site: https://aesolarsystems.in
+    Location: Kakinada, East Godavari, Andhra Pradesh, India
 
     Technical Director: Priya Sharma
-    Site: https://solarisinovations.in
-    Location: Karimnagar, Telangana, India
+    Site: https://aesolarsystems.in
+    Location: Rajahmundry, East Godavari, Andhra Pradesh, India
 
     Operations Manager: Amit Patel
-    Site: https://solarisinovations.in
-    Location: Warangal, Telangana, India
+    Site: https://aesolarsystems.in
+    Location: Amalapuram, East Godavari, Andhra Pradesh, India
 
 /* SITE */
     Last update: 2024/08/22
@@ -24,14 +24,14 @@
     Name: Government of India
     Description: PM Solar Scheme subsidies and renewable energy policies
 
-    Name: Telangana Government
+    Name: Andhra Pradesh Government
     Description: State solar energy initiatives and support
 
     Name: Solar Energy Corporation of India (SECI)
     Description: National solar mission and guidelines
 
 /* SITE */
-    Name: Solaris Inovations
-    Description: Leading solar panel installation company in Telangana
-    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Telangana, Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, Jagtial
-    Author: Solaris Inovations Team
+    Name: AE Solar
+    Description: Leading solar panel installation company in East Godavari, Andhra Pradesh
+    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Andhra Pradesh, East Godavari, Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram
+    Author: AE Solar Team

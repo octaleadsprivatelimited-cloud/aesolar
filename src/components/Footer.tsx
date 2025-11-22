@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sun, Phone, Mail, MapPin } from 'lucide-react';
+import { Sun, MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Sun className="h-6 w-6 text-yellow-500" />
-                <span className="text-lg lg:text-xl font-bold">Solaris Innovations</span>
+                <span className="text-lg lg:text-xl font-bold">AE Solar</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
-                Leading solar energy solutions provider in Telangana - serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, and surrounding areas. 
+                Leading solar energy solutions provider in East Godavari, Andhra Pradesh - serving Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, and all towns and villages across East Godavari district. 
                 Professional solar panel installation with government subsidy assistance and PM solar scheme benefits.
               </p>
               <div className="flex space-x-4" />
@@ -56,22 +56,23 @@ const Footer: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="h-4 w-4 text-yellow-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-300">+91 80193 55353</p>
-                    <p className="text-gray-400 text-xs">24/7 Support</p>
+                    <a href="tel:+919849368733" className="text-gray-300 hover:text-yellow-500 transition-colors block">+91 98493 68733</a>
+                    <a href="tel:+918919028413" className="text-gray-300 hover:text-yellow-500 transition-colors block">+91 89190 28413</a>
+                    <p className="text-gray-400 text-xs mt-1">24/7 Support</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Mail className="h-4 w-4 text-yellow-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-300">info@solarisinovations.in</p>
-                    <p className="text-gray-400 text-xs">Email Support</p>
+                    <a href="mailto:info@aesolarsystems.in" className="text-gray-300 hover:text-yellow-500 transition-colors block">info@aesolarsystems.in</a>
+                    <p className="text-gray-400 text-xs mt-1">Email Support</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-4 w-4 text-yellow-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-300">Hyderabad, T.G, India</p>
-                    <p className="text-gray-400 text-xs">Serving customers across Telangana and all over India.</p>
+                    <p className="text-gray-300">Flat No.FT2, B-Block, Sri sai Parimala Appartments, Nagamalli Thota Junction, Kakinada-533003</p>
+                    <p className="text-gray-400 text-xs">Serving customers across East Godavari district and all over India.</p>
                   </div>
                 </div>
               </div>
@@ -84,15 +85,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 Solaris Innovations. All rights reserved. | Developed by{' '}
-                <a 
-                  href="https://www.octaleads.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium"
-                >
-                  OctaLeads
-                </a>
+                © 2025 AE Solar Systems. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
-  Phone,
-  Mail,
   Send,
-  CheckCircle
+  CheckCircle,
+  Phone
 } from 'lucide-react';
 
 interface ContactFormProps {
@@ -212,17 +211,17 @@ const ContactForm: React.FC<ContactFormProps> = ({ location, articleTitle, class
       </form>
 
       <div className="mt-6 pt-6 border-t border-gray-200">
-        <div className="flex items-center justify-center space-x-6 text-sm text-gray-600">
+        <div className="flex items-center justify-center space-x-6 text-sm text-gray-600 mb-2">
           <div className="flex items-center">
             <Phone className="h-4 w-4 mr-2" />
-            <span>+91 80193 55353</span>
+            <a href="tel:+919849368733" className="hover:text-yellow-600 transition-colors">+91 98493 68733</a>
           </div>
           <div className="flex items-center">
-            <Mail className="h-4 w-4 mr-2" />
-            <span>info@solarisinovations.in</span>
+            <Phone className="h-4 w-4 mr-2" />
+            <a href="tel:+918919028413" className="hover:text-yellow-600 transition-colors">+91 89190 28413</a>
           </div>
         </div>
-        <p className="text-center text-xs text-gray-500 mt-2">
+        <p className="text-center text-xs text-gray-500">
           * Required fields. We'll contact you within 24 hours.
         </p>
       </div>

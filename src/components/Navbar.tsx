@@ -10,7 +10,6 @@ import {
   BookOpen,
   Gift
 } from 'lucide-react';
-import { openWhatsAppQuote } from '../utils/whatsapp';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +44,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Sun className="h-8 w-8 text-yellow-500" />
-            <span className="text-xl font-bold text-gray-900">Solaris Innovations</span>
+            <span className="text-xl font-bold text-gray-900">AE Solar</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -111,12 +110,12 @@ const Navbar: React.FC = () => {
             </Link>
             
             {/* Get Quote Button */}
-            <button
-              onClick={openWhatsAppQuote}
+            <Link
+              to="/contact"
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-2 rounded-lg font-semibold transition-colors cursor-pointer"
             >
               Get Quote
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -157,15 +156,13 @@ const Navbar: React.FC = () => {
               </Link>
 
               {/* Mobile Get Quote Button */}
-              <button
-                onClick={() => {
-                  openWhatsAppQuote();
-                  setIsOpen(false);
-                }}
+              <Link
+                to="/contact"
+                onClick={() => setIsOpen(false)}
                 className="block w-full text-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors cursor-pointer"
               >
                 Get Quote
-              </button>
+              </Link>
             </div>
           </div>
         </div>

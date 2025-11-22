@@ -3,11 +3,8 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton: React.FC = () => {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent(
-      "Hello! I'm interested in solar panel installation. Can you provide more information?"
-    );
-    const whatsappUrl = `https://wa.me/918019355353?text=${message}`;
-    window.open(whatsappUrl, '_blank');
+    // WhatsApp functionality disabled
+    return;
   };
 
   return (

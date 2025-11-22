@@ -1,12 +1,12 @@
-# Open Graph Image Specifications for Solaris Innovations
+# Open Graph Image Specifications for AE Solar
 
 ## Primary OG Image
 - **Dimensions**: 1200 x 630 pixels (1.91:1 ratio)
 - **Format**: PNG or JPG
 - **File Size**: Under 1MB
 - **Content**: 
-  - Logo: Solaris Innovations with sun icon
-  - Tagline: "Leading Solar Installation in Telangana"
+  - Logo: AE Solar with sun icon
+  - Tagline: "Leading Solar Installation in East Godavari, Andhra Pradesh"
   - Highlight: "₹78,000 Government Subsidy Available"
   - Visual: Solar panels with blue sky background
 
@@ -15,7 +15,7 @@
 ### Homepage
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Company overview with solar panels
-- **Text**: "Solaris Innovations - Power Your Future with Solar Energy"
+- **Text**: "AE Solar - Power Your Future with Solar Energy"
 
 ### Landing Page
 - **Dimensions**: 1200 x 630 pixels
@@ -30,17 +30,17 @@
 ### Services
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Service offerings with installation examples
-- **Text**: "Complete Solar Solutions - Residential, Commercial, Industrial"
+- **Text**: "Complete Solar Solutions - Residential, Commercial, Industrial - AE Solar"
 
 ### About
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Team photos with company building
-- **Text**: "About Solaris Innovations - 10+ Years of Excellence"
+- **Text**: "About AE Solar - 10+ Years of Excellence"
 
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact Solaris Innovations - 7 Cities Across Telangana"
+- **Text**: "Contact AE Solar - 35+ Cities, Towns & Villages Across East Godavari"
 
 ## Social Media Platforms
 
@@ -77,10 +77,11 @@
 - **Contrast**: High contrast for accessibility
 
 ### Branding
-- **Logo**: Always include Solaris Innovations logo
-- **Tagline**: "Leading Solar Installation in Telangana"
-- **Contact**: +91 80193 55353
-- **Website**: solarisinovations.in
+- **Logo**: Always include AE Solar logo
+- **Tagline**: "Leading Solar Installation in East Godavari, Andhra Pradesh"
+- **Contact**: +91 98493 68733, +91 89190 28413
+- **Email**: info@aesolarsystems.in
+- **Website**: aesolarsystems.in
 
 ## File Naming Convention
 - `og-homepage.png` - Homepage

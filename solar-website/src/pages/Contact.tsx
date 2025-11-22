@@ -47,18 +47,6 @@ const Contact: React.FC = () => {
 
   const contactInfo = [
     {
-      icon: <Phone className="h-8 w-8 text-yellow-500" />,
-      title: "Phone",
-      details: ["+91 80193 55353"],
-      action: "tel:+918019355353"
-    },
-    {
-      icon: <Mail className="h-8 w-8 text-yellow-500" />,
-      title: "Email",
-      details: ["info@solarisinovations.in"],
-      action: "mailto:info@solarisinovations.in"
-    },
-    {
       icon: <MapPin className="h-8 w-8 text-yellow-500" />,
       title: "Service Areas",
       details: ["Kakinada", "Visakhapatnam", "Rajahmundry"],
@@ -297,35 +285,6 @@ const Contact: React.FC = () => {
                 </h3>
                 
                 <div className="space-y-6 mb-8">
-                  <div className="flex items-start">
-                    <MessageCircle className="h-6 w-6 text-yellow-500 mr-3 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">WhatsApp</h4>
-                      <p className="text-gray-600">Get instant response on WhatsApp</p>
-                      <a
-                        href="https://wa.me/918019355353"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-yellow-600 hover:text-yellow-700 font-medium"
-                      >
-                        Chat Now
-                      </a>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <Phone className="h-6 w-6 text-yellow-500 mr-3 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Call Us</h4>
-                      <p className="text-gray-600">Speak directly with our experts</p>
-                      <a
-                        href="tel:+918019355353"
-                        className="text-yellow-600 hover:text-yellow-700 font-medium"
-                      >
-                        +91 80193 55353
-                      </a>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="bg-yellow-50 p-6 rounded-lg">
@@ -382,22 +341,6 @@ const Contact: React.FC = () => {
           <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
             Don't wait! Contact us today for a free consultation and start saving on your electricity bills
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+918019355353"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-                              Call Now: +91 80193 55353
-            </a>
-            <a
-              href="https://wa.me/918019355353"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-              WhatsApp Us
-            </a>
-          </div>
         </div>
       </section>
     </div>

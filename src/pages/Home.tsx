@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
   Sun, 
   Zap, 
@@ -13,7 +14,6 @@ import {
   ArrowRight,
   Gift
 } from 'lucide-react';
-import { openWhatsAppQuote } from '../utils/whatsapp';
 
 const Home: React.FC = () => {
   const features = [
@@ -43,19 +43,77 @@ const Home: React.FC = () => {
     { number: "500+", label: "Installations", icon: <CheckCircle className="h-6 w-6" /> },
     { number: "150+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
     { number: "18+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
-    { number: "20+", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
+    { number: "35+", label: "Cities, Towns & Villages Served", icon: <Globe className="h-6 w-6" /> }
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>AE Solar - Leading Solar Panel Installation in East Godavari, Andhra Pradesh</title>
+        <meta name="description" content="AE Solar is the leading solar panel installation company in East Godavari, Andhra Pradesh. Professional residential, commercial & industrial solar solutions in Rajahmundry, Kakinada, Amalapuram and all towns across East Godavari district. Get PM Solar Scheme subsidies up to ₹78,000." />
+        <meta name="keywords" content="solar panel installation East Godavari, solar panels Rajahmundry, solar installation Kakinada, solar panels Amalapuram, solar energy East Godavari district, solar companies Andhra Pradesh, PM solar scheme, solar subsidy East Godavari, rooftop solar panels, residential solar, commercial solar, industrial solar" />
+        <link rel="canonical" href="https://aesolarsystems.in/" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aesolarsystems.in/" />
+        <meta property="og:title" content="AE Solar - Leading Solar Panel Installation in East Godavari, Andhra Pradesh" />
+        <meta property="og:description" content="Professional solar panel installation services in East Godavari district. Residential, commercial & industrial solar solutions with PM Solar Scheme subsidies." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta property="og:site_name" content="AE Solar" />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aesolarsystems.in/" />
+        <meta name="twitter:title" content="AE Solar - Leading Solar Panel Installation in East Godavari" />
+        <meta name="twitter:description" content="Professional solar panel installation services in East Godavari district. Get PM Solar Scheme subsidies and save on electricity bills." />
+        <meta name="twitter:image" content="https://aesolarsystems.in/og-image.jpg" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "AE Solar",
+            "image": "https://aesolarsystems.in/og-image.jpg",
+            "url": "https://aesolarsystems.in",
+            "telephone": ["+919849368733", "+918919028413"],
+            "email": "info@aesolarsystems.in",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Flat No.FT2, B-Block, Sri sai Parimala Appartments, Nagamalli Thota Junction",
+              "addressLocality": "Kakinada",
+              "addressRegion": "East Godavari",
+              "postalCode": "533003",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 16.9333,
+              "longitude": 82.2167
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "East Godavari District"
+            },
+            "serviceType": "Solar Panel Installation",
+            "priceRange": "₹₹"
+          })}
+        </script>
+      </Helmet>
     <div className="pt-16">
-      {/* Hero Section with Solar and Wind Power Background */}
+      {/* Hero Section with Video Background */}
       <section className="relative bg-gradient-to-br from-blue-900/60 via-blue-800/50 to-blue-900/60 text-white min-h-screen flex items-center">
-        {/* Tree-Framed House with Solar Panels Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-             style={{
-               backgroundImage: `url('https://png.pngtree.com/thumb_back/fw800/background/20230723/pngtree-d-illustration-of-a-tree-framed-house-with-solar-panels-on-image_3763959.jpg')`
-             }}>
-        </div>
+        {/* Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-40"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-30"></div>
@@ -100,16 +158,16 @@ const Home: React.FC = () => {
               </div>
               
               <p className="text-xl text-gray-200 mb-8">
-                A leading solar panel installation company from Telangana, our expertise and trusted services now reach customers all over India. Save money, save the environment, and enjoy reliable clean energy with our comprehensive rooftop solar panels and advanced energy solutions.
+                A leading solar panel installation company from East Godavari, Andhra Pradesh, our expertise and trusted services now reach customers all over India. Save money, save the environment, and enjoy reliable clean energy with our comprehensive rooftop solar panels and advanced energy solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button
-                  onClick={openWhatsAppQuote}
+                <Link
+                  to="/contact"
                   className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center justify-center cursor-pointer"
                 >
                   Get Free Quote
                   <ArrowRight className="ml-2 h-6 w-6" />
-                </button>
+                </Link>
                                  <Link
                    to="/landing"
                    className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center justify-center border-2 border-red-600"
@@ -138,9 +196,6 @@ const Home: React.FC = () => {
                   <div className="absolute inset-28 bg-white/80 rounded-full"></div>
                   <div className="absolute inset-32 bg-white/90 rounded-full"></div>
                   <div className="absolute inset-36 bg-white rounded-full"></div>
-                  
-                  {/* Central Sun Icon */}
-                  <Sun className="h-32 w-32 text-white relative z-10" />
                 </div>
                 
                 {/* Floating Elements */}
@@ -164,7 +219,7 @@ const Home: React.FC = () => {
               Solar Installation Showcase
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See our professional solar panel installations across Telangana - from Hyderabad solar panels to Karimnagar solar systems, Warangal rooftop solar, and Nizamabad solar power solutions
+              See our professional solar panel installations across East Godavari, Andhra Pradesh - from Rajahmundry solar panels to Kakinada solar systems, Amalapuram rooftop solar, and Tuni solar power solutions
             </p>
           </div>
           
@@ -194,7 +249,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Homes</h4>
-                <p className="text-gray-600 text-sm">Reduce electricity bills by up to 90% with residential solar panels, rooftop solar systems, and home solar power solutions in Hyderabad, Karimnagar, and across Telangana</p>
+                <p className="text-gray-600 text-sm">Reduce electricity bills by up to 90% with residential solar panels, rooftop solar systems, and home solar power solutions in Rajahmundry, Kakinada, and across East Godavari district</p>
               </div>
             </motion.div>
 
@@ -224,7 +279,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Business Benefits</h4>
-                <p className="text-gray-600 text-sm">Cut operational costs and improve your business sustainability with commercial solar panels, business solar systems, and office solar power solutions in Warangal, Nizamabad, and across Telangana</p>
+                <p className="text-gray-600 text-sm">Cut operational costs and improve your business sustainability with commercial solar panels, business solar systems, and office solar power solutions in Amalapuram, Tuni, and across East Godavari district</p>
               </div>
             </motion.div>
 
@@ -253,7 +308,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Industrial Power</h4>
-                <p className="text-gray-600 text-sm">Massive energy savings for factories and industrial facilities with industrial solar panels, factory solar systems, and large-scale solar power solutions in Khammam, Ramagundam, and across Telangana</p>
+                <p className="text-gray-600 text-sm">Massive energy savings for factories and industrial facilities with industrial solar panels, factory solar systems, and large-scale solar power solutions in Peddapuram, Pithapuram, and across East Godavari district</p>
               </div>
             </motion.div>
           </div>
@@ -265,10 +320,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Solaris Innovations?
+              Why Choose AE Solar?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive solar solutions with unmatched quality and service - from Hyderabad solar installation to Karimnagar solar maintenance, Warangal solar repair, and Nizamabad solar consultation across Telangana
+              We provide comprehensive solar solutions with unmatched quality and service - from Rajahmundry solar installation to Kakinada solar maintenance, Amalapuram solar repair, and Tuni solar consultation across East Godavari district
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -320,18 +375,12 @@ const Home: React.FC = () => {
             We are proud to serve customers across India who have embraced the benefits of solar energy. Join the growing community that has already transitioned to sustainable power. Contact us today for a complimentary solar consultation on rooftop solar panels, integrated solar power systems, and customized solar energy solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+918019355353"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-              Call Now: +91 80193 55353
-            </a>
-            <button
-              onClick={openWhatsAppQuote}
+            <Link
+              to="/contact"
               className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors cursor-pointer"
             >
               Request Quote
-            </button>
+            </Link>
             <Link
               to="/landing"
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors border-2 border-red-600"
@@ -343,6 +392,7 @@ const Home: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
-  Phone, 
-  Mail, 
   MapPin, 
   Clock, 
-  MessageCircle,
   Send,
-  CheckCircle
+  CheckCircle,
+  Phone
 } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -49,19 +48,19 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="h-8 w-8 text-yellow-500" />,
       title: "Phone",
-      details: ["+91 80193 55353"],
-      action: "tel:+918019355353"
+      details: ["+91 98493 68733", "+91 89190 28413"],
+      action: "tel:+919849368733"
     },
     {
-      icon: <Mail className="h-8 w-8 text-yellow-500" />,
-      title: "Email",
-      details: ["info@solarisinovations.in"],
-      action: "mailto:info@solarisinovations.in"
+      icon: <MapPin className="h-8 w-8 text-yellow-500" />,
+      title: "Address",
+      details: ["Flat No.FT2, B-Block", "Sri sai Parimala Appartments", "Nagamalli Thota Junction", "Kakinada-533003"],
+      action: "#"
     },
     {
       icon: <MapPin className="h-8 w-8 text-yellow-500" />,
       title: "Service Areas",
-      details: ["Hyderabad", "Karimnagar", "Warangal", "Nizamabad", "Khammam"],
+      details: ["Rajahmundry", "Kakinada", "Amalapuram", "Tuni", "Peddapuram"],
       action: "#"
     },
     {
@@ -73,11 +72,19 @@ const Contact: React.FC = () => {
   ];
 
   const cities = [
-    'Hyderabad', 'Karimnagar', 'Warangal', 
-    'Nizamabad', 'Khammam', 'Ramagundam',
-    'Mahabubnagar', 'Adilabad', 'Nalgonda',
-    'Medak', 'Rangareddy', 'Suryapet',
-    'Miryalaguda', 'Siddipet', 'Jagtial'
+    'Rajahmundry', 'Kakinada', 'Amalapuram', 
+    'Tuni', 'Peddapuram', 'Pithapuram',
+    'Mandapeta', 'Razole', 'Ramachandrapuram',
+    'Mummidivaram', 'Kothapeta', 'Samalkot',
+    'Yeleswaram', 'Gollaprolu', 'Tallarevu',
+    'Uppalaguptam', 'Malikipuram', 'Allavaram',
+    'Katrenikona', 'I. Polavaram', 'Devipatnam',
+    'Maredumilli', 'Y. Ramavaram', 'Addateegala',
+    'Rajanagaram', 'Anaparthy', 'Kadiam',
+    'Sankhavaram', 'Kotananduru', 'Alamuru',
+    'Atreyapuram', 'Ravulapalem', 'Kapileswarapuram',
+    'Karapa', 'Thondangi', 'Sakhinetipalli',
+    'Ainavilli', 'Ambajipeta'
   ];
 
   const systemSizes = [
@@ -89,6 +96,20 @@ const Contact: React.FC = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Contact AE Solar - Get Free Solar Quote in East Godavari | Call +91 98493 68733</title>
+        <meta name="description" content="Contact AE Solar for free solar consultation in East Godavari. Call +91 98493 68733 or +91 89190 28413. Visit us at Kakinada office. Get free quote for solar panel installation with PM Solar Scheme subsidies." />
+        <meta name="keywords" content="contact AE Solar, solar consultation East Godavari, solar quote Kakinada, solar installation contact, free solar consultation, solar expert contact" />
+        <link rel="canonical" href="https://aesolarsystems.in/contact" />
+        <meta property="og:url" content="https://aesolarsystems.in/contact" />
+        <meta property="og:title" content="Contact AE Solar - Get Free Solar Quote" />
+        <meta property="og:description" content="Contact AE Solar for free solar consultation in East Godavari. Call +91 98493 68733. Get free quote for solar panel installation." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact AE Solar" />
+        <meta name="twitter:description" content="Get free solar consultation and quote. Call +91 98493 68733 or visit our Kakinada office." />
+      </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative text-white py-20 overflow-hidden">
@@ -309,32 +330,35 @@ const Contact: React.FC = () => {
                 
                 <div className="space-y-6 mb-8">
                   <div className="flex items-start">
-                    <MessageCircle className="h-6 w-6 text-yellow-500 mr-3 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">WhatsApp</h4>
-                      <p className="text-gray-600">Get instant response on WhatsApp</p>
-                      <a
-                        href="https://wa.me/918019355353"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-yellow-600 hover:text-yellow-700 font-medium"
-                      >
-                        Chat Now
-                      </a>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
                     <Phone className="h-6 w-6 text-yellow-500 mr-3 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Call Us</h4>
                       <p className="text-gray-600">Speak directly with our experts</p>
                       <a
-                        href="tel:+918019355353"
-                        className="text-yellow-600 hover:text-yellow-700 font-medium"
+                        href="tel:+919849368733"
+                        className="text-yellow-600 hover:text-yellow-700 font-medium block mt-1"
                       >
-                        +91 80193 55353
+                        +91 98493 68733
                       </a>
+                      <a
+                        href="tel:+918919028413"
+                        className="text-yellow-600 hover:text-yellow-700 font-medium block mt-1"
+                      >
+                        +91 89190 28413
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <MapPin className="h-6 w-6 text-yellow-500 mr-3 mt-1" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Visit Us</h4>
+                      <p className="text-gray-600">Our office location</p>
+                      <p className="text-gray-700 text-sm mt-1">
+                        Flat No.FT2, B-Block,<br />
+                        Sri sai Parimala Appartments,<br />
+                        Nagamalli Thota Junction,<br />
+                        Kakinada-533003
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -360,7 +384,7 @@ const Contact: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Service Areas in Telangana
+              Service Areas in East Godavari, Andhra Pradesh
             </h2>
             <p className="text-xl text-gray-300">
               We provide solar installation services across these major cities
@@ -393,25 +417,10 @@ const Contact: React.FC = () => {
           <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
             Don't wait! Contact us today for a free consultation and start saving on your electricity bills
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+918019355353"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-                              Call Now: +91 80193 55353
-            </a>
-            <a
-              href="https://wa.me/918019355353"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-              WhatsApp Us
-            </a>
-          </div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 

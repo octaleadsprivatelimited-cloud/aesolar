@@ -1,6 +1,6 @@
-# Solaris Innovations - Solar Panel Installation Website
+# AE Solar - Solar Panel Installation Website
 
-A professional, responsive website for a solar panel installation company operating in Telangana, India.
+A professional, responsive website for a solar panel installation company operating in East Godavari, Andhra Pradesh, India.
 
 ## 🌟 Features
 
@@ -8,10 +8,9 @@ A professional, responsive website for a solar panel installation company operat
 - **Responsive Design**: Mobile-first approach, works on all devices
 - **SEO Optimized**: Meta tags, structured data, and semantic HTML
 - **Cost Calculator**: Solar installation cost calculator with PM Solar Scheme subsidies
-- **WhatsApp Integration**: Floating WhatsApp button for instant contact
 - **Modern UI/UX**: Professional design with smooth animations
 - **Contact Forms**: Lead generation forms with validation
-- **Service Areas**: Coverage in 15 major cities of Telangana
+- **Service Areas**: Coverage across East Godavari district - cities, towns, and villages
 
 ## 🚀 Tech Stack
 
@@ -24,21 +23,16 @@ A professional, responsive website for a solar panel installation company operat
 
 ## 📱 Service Areas
 
-- Hyderabad
-- Karimnagar
-- Warangal
-- Nizamabad
-- Khammam
-- Ramagundam
-- Mahabubnagar
-- Adilabad
-- Nalgonda
-- Medak
-- Rangareddy
-- Suryapet
-- Miryalaguda
-- Siddipet
-- Jagtial
+**Major Cities:**
+- Rajahmundry (Rajamahendravaram)
+- Kakinada
+- Amalapuram
+
+**Towns:**
+- Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram, Mummidivaram, Kothapeta, Samalkot, Yeleswaram, Gollaprolu, Tallarevu, Uppalaguptam, Malikipuram, Allavaram, Katrenikona, I. Polavaram, Devipatnam, Maredumilli, Y. Ramavaram, Addateegala, Rajanagaram, Anaparthy, Kadiam, Sankhavaram, Kotananduru, Alamuru, Atreyapuram, Ravulapalem, Kapileswarapuram, Karapa, Thondangi, Sakhinetipalli, Ainavilli, Ambajipeta
+
+**Villages:**
+- We serve all villages across East Godavari district
 
 ## 🏗️ Installation & Setup
 
@@ -48,13 +42,7 @@ A professional, responsive website for a solar panel installation company operat
 
 ### Setup Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd solar-website
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
@@ -76,7 +64,6 @@ src/
 ├── components/          # Reusable UI components
 │   ├── Navbar.tsx      # Navigation bar
 │   ├── Footer.tsx      # Footer component
-│   └── WhatsAppButton.tsx # Floating WhatsApp button
 ├── pages/              # Page components
 │   ├── Home.tsx        # Homepage
 │   ├── Services.tsx    # Services page
@@ -102,7 +89,6 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+918019355353` throughout
 
 ## 📊 SEO Features
 
@@ -122,11 +108,6 @@ Update the following files to customize content:
 
 ## 🚀 Deployment
 
-### Traditional Hosting
-1. Run `npm run build`
-2. Upload `build` folder contents to your web server
-3. Configure server for SPA routing
-
 ### Build for Production
 ```bash
 npm run build
@@ -135,18 +116,14 @@ The build folder will contain all production-ready files.
 
 ## 📞 Contact Information
 
-- **Phone**: +91 80193 55353
-- **Email**: info@solarisinovations.in
-- **Service Areas**: Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam
+- **Service Areas**: Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, and all towns and villages in East Godavari district
 
 ## 🔧 Configuration
 
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Solaris Innovations
-REACT_APP_PHONE_NUMBER=+918019355353
-REACT_APP_EMAIL=info@solarisinovations.in
+REACT_APP_COMPANY_NAME=AE Solar
 ```
 
 ### Tailwind Configuration
@@ -178,9 +155,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 
 ## 🤝 Contributing
 
-For contributions and collaboration, please contact us directly:
-- Phone: +91 80193 55353
-- Email: info@solarisinovations.in
+For contributions and collaboration, please contact us directly.
 
 ## 📄 License
 
@@ -188,11 +163,8 @@ This project is licensed under the MIT License.
 
 ## 🆘 Support
 
-For support and questions:
-
-- Phone: +91 80193 55353
-- WhatsApp: +91 80193 55353
+For support and questions, please use the contact form on the website.
 
 ---
 
-**Solaris Innovations** - Powering the future with solar energy! ☀️
+**AE Solar** - Powering the future with solar energy! ☀️

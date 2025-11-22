@@ -23,14 +23,14 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: "1",
-    title: "Solar Energy in Hyderabad: Complete Guide 2024",
-    slug: "solar-energy-hyderabad-guide-2024",
-    excerpt: "Discover the best solar solutions in Hyderabad. Learn about local solar companies, government subsidies, installation costs, and success stories from Hyderabad residents.",
+    title: "Solar Energy in Rajahmundry: Complete Guide 2024",
+    slug: "solar-energy-rajahmundry-guide-2024",
+    excerpt: "Discover the best solar solutions in Rajahmundry, East Godavari. Learn about local solar companies, government subsidies, installation costs, and success stories from Rajahmundry residents.",
     content: `
-      <h2>Solar Energy Revolution in Hyderabad</h2>
-      <p>Hyderabad, the capital city of Telangana, is leading the solar energy revolution with its abundant sunshine and progressive policies. The city receives an average of 6-8 hours of sunlight daily, making it perfect for solar installations.</p>
+      <h2>Solar Energy Revolution in Rajahmundry</h2>
+      <p>Rajahmundry (Rajamahendravaram), the cultural capital of East Godavari district, Andhra Pradesh, is leading the solar energy revolution with its abundant sunshine and progressive policies. The city receives an average of 6-8 hours of sunlight daily, making it perfect for solar installations.</p>
       
-      <h2>Why Choose Solar in Hyderabad?</h2>
+      <h2>Why Choose Solar in Rajahmundry?</h2>
       <ul>
         <li>Abundant sunshine: 300+ sunny days per year</li>
         <li>High electricity rates: ₹8-12 per unit</li>
@@ -39,8 +39,8 @@ export const articles: Article[] = [
         <li>Expert local solar companies</li>
       </ul>
       
-      <h2>Solar Installation Costs in Hyderabad</h2>
-      <p>Typical residential solar system costs in Vizag:</p>
+      <h2>Solar Installation Costs in Rajahmundry</h2>
+      <p>Typical residential solar system costs in Rajahmundry:</p>
       <ul>
         <li>1 kW: ₹45,000-₹65,000</li>
         <li>3 kW: ₹1,25,000-₹1,80,000</li>
@@ -49,7 +49,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Companies</h2>
-      <p>Solaris Innovations leads the market in Hyderabad with:</p>
+      <p>AE Solar leads the market in Rajahmundry with:</p>
       <ul>
         <li>10+ years of local experience</li>
         <li>500+ successful installations</li>
@@ -67,46 +67,48 @@ export const articles: Article[] = [
         <li>Tax benefits: Accelerated depreciation</li>
       </ul>
       
-      <h2>Success Stories from Vizag</h2>
-      <p>Mr. Rao from MVP Colony saved ₹8,500 monthly with his 5kW solar system. Mrs. Devi from PM Palem reduced her electricity bill by 90% with a 3kW installation.</p>
+      <h2>Success Stories from Rajahmundry</h2>
+      <p>Mr. Rao from Danavaipeta saved ₹8,500 monthly with his 5kW solar system. Mrs. Devi from Lalacheruvu reduced her electricity bill by 90% with a 3kW installation.</p>
       
-      <h2>Best Areas for Solar in Hyderabad</h2>
+      <h2>Best Areas for Solar in Rajahmundry</h2>
       <ul>
-        <li>MVP Colony</li>
-        <li>PM Palem</li>
-        <li>Jagadamba Centre</li>
-        <li>Asilmetta</li>
-        <li>Seethammadhara</li>
+        <li>Danavaipeta</li>
+        <li>Lalacheruvu</li>
+        <li>Korukonda</li>
+        <li>Kadiyapulanka</li>
+        <li>Gandhi Nagar</li>
+        <li>Bommuru</li>
+        <li>Korukonda</li>
       </ul>
       
       <h2>Conclusion</h2>
-      <p>Hyderabad offers excellent opportunities for solar energy adoption. With abundant sunshine, government support, and local expertise, there's no better time to go solar in Hyderabad.</p>
+      <p>Rajahmundry offers excellent opportunities for solar energy adoption. With abundant sunshine, government support, and local expertise, there's no better time to go solar in Rajahmundry, East Godavari.</p>
     `,
-    author: "Solaris Innovations Team",
-    authorBio: "Leading solar energy experts in Hyderabad with over 10 years of experience and 500+ successful installations.",
+    author: "AE Solar Team",
+    authorBio: "Leading solar energy experts in East Godavari with over 10 years of experience and 500+ successful installations.",
     publishDate: "2024-03-20",
     readTime: "8 min read",
     category: "location-guide",
-    tags: ["solar energy Hyderabad", "solar panels Hyderabad", "solar installation Hyderabad", "solar companies Hyderabad", "solar cost Hyderabad"],
-    image: "/images/locations/hyderabad-solar.jpg",
+    tags: ["solar energy Rajahmundry", "solar panels Rajahmundry", "solar installation Rajahmundry", "solar companies Rajahmundry", "solar cost Rajahmundry", "solar energy East Godavari", "solar panels East Godavari district"],
+    image: "/images/locations/rajahmundry-solar.jpg",
     featured: true,
-    seoTitle: "Solar Energy in Hyderabad 2024 | Best Solar Companies & Installation Costs",
-    seoDescription: "Complete guide to solar energy in Hyderabad. Learn about local solar companies, installation costs, government subsidies, and success stories from Hyderabad residents.",
-    seoKeywords: ["solar energy Hyderabad", "solar panels Hyderabad", "solar installation Hyderabad", "solar companies Hyderabad", "solar cost Hyderabad", "solar subsidy Hyderabad"],
-    relatedArticles: ["solar-energy-karimnagar-guide", "solar-energy-warangal-guide", "solar-energy-nizamabad-guide"],
-    location: "Hyderabad",
+    seoTitle: "Solar Energy in Rajahmundry 2024 | Best Solar Companies & Installation Costs | East Godavari",
+    seoDescription: "Complete guide to solar energy in Rajahmundry, East Godavari. Learn about local solar companies, installation costs, government subsidies, and success stories from Rajahmundry residents.",
+    seoKeywords: ["solar energy Rajahmundry", "solar panels Rajahmundry", "solar installation Rajahmundry", "solar companies Rajahmundry", "solar cost Rajahmundry", "solar subsidy Rajahmundry", "solar energy East Godavari", "solar panels East Godavari district", "solar installation East Godavari", "solar companies East Godavari"],
+    relatedArticles: ["solar-energy-kakinada-guide", "solar-energy-amalapuram-guide", "solar-energy-tuni-guide"],
+    location: "Rajahmundry",
     contactForm: true
   },
   {
     id: "2",
-    title: "Solar Energy in Karimnagar: Complete Guide 2024",
-    slug: "solar-energy-karimnagar-guide-2024",
-    excerpt: "Explore solar energy opportunities in Karimnagar. Learn about local solar solutions, installation costs, government subsidies, and success stories from Karimnagar residents.",
+    title: "Solar Energy in Kakinada: Complete Guide 2024",
+    slug: "solar-energy-kakinada-guide-2024",
+    excerpt: "Explore solar energy opportunities in Kakinada, East Godavari. Learn about local solar solutions, installation costs, government subsidies, and success stories from Kakinada residents.",
     content: `
-      <h2>Solar Energy Growth in Karimnagar</h2>
-      <p>Karimnagar, a major city in Telangana, is embracing solar energy with enthusiasm. The city's strategic location and abundant sunshine make it ideal for solar installations.</p>
+      <h2>Solar Energy Growth in Kakinada</h2>
+      <p>Kakinada, a major port city in East Godavari district, Andhra Pradesh, is embracing solar energy with enthusiasm. The city's strategic location and abundant sunshine make it ideal for solar installations.</p>
       
-      <h2>Solar Potential in Karimnagar</h2>
+      <h2>Solar Potential in Kakinada</h2>
       <ul>
         <li>Sunshine hours: 6-7 hours daily average</li>
         <li>Solar irradiance: 5.5-6.0 kWh/m²/day</li>
@@ -114,7 +116,7 @@ export const articles: Article[] = [
         <li>Roof space: Abundant residential and commercial</li>
       </ul>
       
-      <h2>Installation Costs in Karimnagar</h2>
+      <h2>Installation Costs in Kakinada</h2>
       <p>Typical solar system costs:</p>
       <ul>
         <li>2 kW: ₹85,000-₹1,20,000</li>
@@ -124,7 +126,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Expertise</h2>
-      <p>Solaris Innovations serves Secunderabad with:</p>
+      <p>AE Solar serves Kakinada with:</p>
       <ul>
         <li>Local office and support team</li>
         <li>Quick installation services</li>
@@ -142,46 +144,47 @@ export const articles: Article[] = [
       
       <h2>Popular Areas for Solar</h2>
       <ul>
-        <li>Kambala Tank Road</li>
+        <li>Port Area</li>
         <li>Gandhi Nagar</li>
-        <li>Bommuru</li>
-        <li>Korukonda</li>
-        <li>Karimnagar Rural</li>
+        <li>Ramaraopeta</li>
+        <li>Pithapuram Road</li>
+        <li>Kakinada Rural</li>
+        <li>Industrial Area</li>
       </ul>
       
       <h2>Success Stories</h2>
       <p>Local businesses and residents have achieved significant savings. A textile shop owner saved ₹15,000 monthly with a 25kW commercial system.</p>
       
       <h2>Conclusion</h2>
-      <p>Karimnagar offers excellent solar opportunities with government support and local expertise. Start your solar journey today.</p>
+      <p>Kakinada offers excellent solar opportunities with government support and local expertise. Start your solar journey today in East Godavari district.</p>
     `,
     author: "Solar Expert",
     authorBio: "Specialist in East Godavari solar installations with extensive knowledge of local market and regulations.",
     publishDate: "2024-03-19",
     readTime: "7 min read",
     category: "location-guide",
-    tags: ["solar energy Karimnagar", "solar panels Karimnagar", "solar installation Karimnagar", "solar companies Karimnagar"],
-    image: "/images/locations/karimnagar-solar.jpg",
+    tags: ["solar energy Kakinada", "solar panels Kakinada", "solar installation Kakinada", "solar companies Kakinada", "solar energy East Godavari", "solar panels East Godavari"],
+    image: "/images/locations/kakinada-solar.jpg",
     featured: false,
-    seoTitle: "Solar Energy in Karimnagar 2024 | Installation Costs & Local Companies",
-    seoDescription: "Complete guide to solar energy in Karimnagar. Learn about installation costs, local companies, government subsidies, and success stories.",
-    seoKeywords: ["solar energy Karimnagar", "solar panels Karimnagar", "solar installation Karimnagar", "solar companies Karimnagar", "solar cost Karimnagar"],
-    relatedArticles: ["solar-energy-hyderabad-guide", "solar-energy-warangal-guide", "solar-energy-nizamabad-guide"],
-    location: "Karimnagar",
+    seoTitle: "Solar Energy in Kakinada 2024 | Installation Costs & Local Companies | East Godavari",
+    seoDescription: "Complete guide to solar energy in Kakinada, East Godavari. Learn about installation costs, local companies, government subsidies, and success stories.",
+    seoKeywords: ["solar energy Kakinada", "solar panels Kakinada", "solar installation Kakinada", "solar companies Kakinada", "solar cost Kakinada", "solar energy East Godavari", "solar panels East Godavari district", "solar installation East Godavari towns"],
+    relatedArticles: ["solar-energy-rajahmundry-guide", "solar-energy-amalapuram-guide", "solar-energy-tuni-guide"],
+    location: "Kakinada",
     contactForm: true
   },
   {
     id: "3",
-    title: "Solar Energy in Warangal: Complete Guide 2024",
-    slug: "solar-energy-warangal-guide-2024",
-    excerpt: "Discover solar energy solutions in Warangal. Learn about local solar companies, installation costs, government subsidies, and success stories from Warangal residents.",
+    title: "Solar Energy in Amalapuram: Complete Guide 2024",
+    slug: "solar-energy-amalapuram-guide-2024",
+    excerpt: "Discover solar energy solutions in Amalapuram, East Godavari. Learn about local solar companies, installation costs, government subsidies, and success stories from Amalapuram residents.",
     content: `
-      <h2>Solar Energy Development in Warangal</h2>
-      <p>Warangal, a major city in Telangana, is rapidly adopting solar energy solutions. The city's industrial growth and sunny climate create perfect conditions for solar installations.</p>
+      <h2>Solar Energy Development in Amalapuram</h2>
+      <p>Amalapuram, a major town in East Godavari district, Andhra Pradesh, is rapidly adopting solar energy solutions. The town's agricultural and commercial growth and sunny climate create perfect conditions for solar installations.</p>
       
-      <h2>Why Solar in Warangal?</h2>
+      <h2>Why Solar in Amalapuram?</h2>
       <ul>
-        <li>Port city with industrial growth</li>
+        <li>Coastal town with agricultural and commercial growth</li>
         <li>Abundant sunshine: 6-8 hours daily</li>
         <li>High electricity consumption</li>
         <li>Government port city initiatives</li>
@@ -189,7 +192,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Solar Installation Costs</h2>
-      <p>Typical costs in Warangal:</p>
+      <p>Typical costs in Amalapuram:</p>
       <ul>
         <li>Residential 3 kW: ₹1,25,000-₹1,80,000</li>
         <li>Commercial 25 kW: ₹8,50,000-₹12,00,000</li>
@@ -198,7 +201,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Services</h2>
-      <p>Solaris Innovations provides:</p>
+      <p>AE Solar provides:</p>
       <ul>
         <li>Free site assessment</li>
         <li>Custom solar solutions</li>
@@ -215,8 +218,8 @@ export const articles: Article[] = [
         <li>Export promotion schemes</li>
       </ul>
       
-      <h2>Industrial Solar Solutions</h2>
-      <p>Warangal's industrial sector benefits from:</p>
+      <h2>Commercial and Agricultural Solar Solutions</h2>
+      <p>Amalapuram's commercial and agricultural sector benefits from:</p>
       <ul>
         <li>Large-scale solar installations</li>
         <li>Energy cost reduction</li>
@@ -226,37 +229,41 @@ export const articles: Article[] = [
       
       <h2>Popular Areas</h2>
       <ul>
-        <li>Port Area</li>
-        <li>Industrial Zone</li>
+        <li>Main Town Area</li>
+        <li>Agricultural Zones</li>
         <li>Residential Colonies</li>
         <li>Commercial Districts</li>
+        <li>Surrounding Villages</li>
       </ul>
       
       <h2>Conclusion</h2>
-      <p>Warangal offers excellent opportunities for both residential and commercial solar installations with government support and local expertise.</p>
+      <p>Amalapuram offers excellent opportunities for both residential and commercial solar installations with government support and local expertise in East Godavari district.</p>
     `,
-    author: "Industrial Solar Expert",
-    authorBio: "Specialist in industrial solar installations with expertise in port city regulations and large-scale projects.",
+    author: "Solar Expert",
+    authorBio: "Specialist in solar installations across East Godavari district with expertise in residential, commercial, and agricultural solar projects.",
     publishDate: "2024-03-18",
     readTime: "6 min read",
     category: "location-guide",
-    tags: ["solar energy Warangal", "solar panels Warangal", "industrial solar Warangal", "solar companies Warangal"],
-    image: "/images/locations/warangal-solar.jpg",
+    tags: ["solar energy Amalapuram", "solar panels Amalapuram", "solar installation Amalapuram", "solar companies Amalapuram", "solar energy East Godavari towns"],
+    image: "/images/locations/amalapuram-solar.jpg",
     featured: false,
-    seoTitle: "Solar Energy in Warangal 2024 | Industrial & Residential Solar Solutions",
-    seoDescription: "Complete guide to solar energy in Warangal. Learn about industrial and residential solar solutions, costs, and local companies.",
-    seoKeywords: ["solar energy Kakinada", "solar panels Kakinada", "industrial solar Kakinada", "solar companies Kakinada", "solar cost Kakinada"],
-    relatedArticles: ["solar-energy-visakhapatnam-guide", "solar-energy-rajahmundry-guide", "solar-energy-amalapuram-guide"],
-    location: "Warangal",
+    seoTitle: "Solar Energy in Amalapuram 2024 | Commercial & Residential Solar Solutions | East Godavari",
+    seoDescription: "Complete guide to solar energy in Amalapuram, East Godavari. Learn about commercial and residential solar solutions, costs, and local companies.",
+    seoKeywords: ["solar energy Amalapuram", "solar panels Amalapuram", "solar installation Amalapuram", "solar companies Amalapuram", "solar cost Amalapuram", "solar energy East Godavari", "solar panels East Godavari towns", "solar installation East Godavari villages"],
+    relatedArticles: ["solar-energy-rajahmundry-guide", "solar-energy-kakinada-guide", "solar-energy-tuni-guide"],
+    location: "Amalapuram",
     contactForm: true
   }
 ];
 
-// Add more articles for other locations
+// Add more articles for East Godavari locations
 const additionalLocations = [
-  "Amalapuram", "Tanuku", "Eluru", "Bhimavaram", "Palakollu", "Narsapur", 
-  "Machilipatnam", "Gudivada", "Vijayawada", "Guntur", "Ongole", "Nellore",
-  "Tirupati", "Chittoor", "Anantapur", "Kurnool", "Kadapa"
+  "Tuni", "Peddapuram", "Pithapuram", "Mandapeta", "Razole", "Ramachandrapuram", 
+  "Mummidivaram", "Kothapeta", "Samalkot", "Yeleswaram", "Gollaprolu", "Tallarevu",
+  "Uppalaguptam", "Malikipuram", "Allavaram", "Katrenikona", "I. Polavaram", "Devipatnam",
+  "Maredumilli", "Y. Ramavaram", "Addateegala", "Rajanagaram", "Anaparthy", "Kadiam",
+  "Sankhavaram", "Kotananduru", "Alamuru", "Atreyapuram", "Ravulapalem", "Kapileswarapuram",
+  "Karapa", "Thondangi", "Sakhinetipalli", "Ainavilli", "Ambajipeta"
 ];
 
 additionalLocations.forEach((location, index) => {
@@ -289,7 +296,7 @@ additionalLocations.forEach((location, index) => {
       </ul>
       
       <h2>Local Services</h2>
-      <p>Solaris Innovations provides comprehensive solar solutions in ${location} including installation, maintenance, and support.</p>
+      <p>AE Solar provides comprehensive solar solutions in ${location} including installation, maintenance, and support.</p>
       
       <h2>Government Support</h2>
       <ul>
@@ -299,20 +306,20 @@ additionalLocations.forEach((location, index) => {
       </ul>
       
       <h2>Conclusion</h2>
-      <p>${location} offers excellent opportunities for solar energy adoption with government support and local expertise.</p>
+      <p>${location} in East Godavari district offers excellent opportunities for solar energy adoption with government support and local expertise. Whether you're in a city, town, or village, solar energy is accessible and beneficial.</p>
     `,
     author: "Solar Expert",
-    authorBio: "Specialist in solar installations across Andhra Pradesh with extensive knowledge of local markets and regulations.",
+    authorBio: "Specialist in solar installations across East Godavari district with extensive knowledge of local markets, towns, villages, and regulations.",
     publishDate: `2024-03-${17 - index}`,
     readTime: "6 min read",
     category: "location-guide",
-    tags: [`solar energy ${location}`, `solar panels ${location}`, `solar installation ${location}`],
+    tags: [`solar energy ${location}`, `solar panels ${location}`, `solar installation ${location}`, `solar energy East Godavari`, `solar panels East Godavari district`, `solar installation East Godavari towns`, `solar energy East Godavari villages`],
     image: `/images/locations/${location.toLowerCase()}-solar.jpg`,
     featured: false,
     seoTitle: `Solar Energy in ${location} 2024 | Installation Costs & Local Companies`,
     seoDescription: `Complete guide to solar energy in ${location}. Learn about installation costs, local companies, government subsidies, and success stories.`,
-    seoKeywords: [`solar energy ${location}`, `solar panels ${location}`, `solar installation ${location}`, `solar companies ${location}`],
-    relatedArticles: ["solar-energy-visakhapatnam-guide", "solar-energy-rajahmundry-guide", "solar-energy-kakinada-guide"],
+    seoKeywords: [`solar energy ${location}`, `solar panels ${location}`, `solar installation ${location}`, `solar companies ${location}`, `solar energy East Godavari`, `solar panels East Godavari district`, `solar installation East Godavari`, `solar companies East Godavari`, `solar energy East Godavari towns`, `solar panels East Godavari villages`],
+    relatedArticles: ["solar-energy-rajahmundry-guide", "solar-energy-kakinada-guide", "solar-energy-amalapuram-guide"],
     location: location,
     contactForm: true
   });

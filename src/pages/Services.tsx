@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { 
   Home, 
   Building, 
@@ -11,7 +12,6 @@ import {
   CheckCircle,
   ArrowRight
 } from 'lucide-react';
-import { openWhatsAppQuote } from '../utils/whatsapp';
 
 const Services: React.FC = () => {
   const services = [
@@ -75,6 +75,20 @@ const Services: React.FC = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Solar Services - Residential, Commercial & Industrial Solar Solutions | AE Solar</title>
+        <meta name="description" content="Comprehensive solar services in East Godavari: residential solar panels, commercial solar systems, industrial solar solutions, and solar maintenance. Professional installation with PM Solar Scheme subsidies." />
+        <meta name="keywords" content="residential solar East Godavari, commercial solar Kakinada, industrial solar Rajahmundry, solar maintenance, solar installation services, solar panel repair, solar system design" />
+        <link rel="canonical" href="https://aesolarsystems.in/services" />
+        <meta property="og:url" content="https://aesolarsystems.in/services" />
+        <meta property="og:title" content="Solar Services - Residential, Commercial & Industrial | AE Solar" />
+        <meta property="og:description" content="Comprehensive solar services in East Godavari: residential, commercial & industrial solar solutions with professional installation." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Solar Services - AE Solar" />
+        <meta name="twitter:description" content="Professional solar installation services for homes, businesses, and industries in East Godavari." />
+      </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative text-white py-20 overflow-hidden">
@@ -201,13 +215,13 @@ const Services: React.FC = () => {
                     <div className="text-2xl font-bold text-yellow-600 mb-4">
                       {service.price}
                     </div>
-                    <button 
-                      onClick={openWhatsAppQuote}
+                    <Link
+                      to="/contact"
                       className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center group cursor-pointer"
                     >
                       Get Quote
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </motion.div>
@@ -298,25 +312,10 @@ const Services: React.FC = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Contact us for a free consultation and customized solar solution quote
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+918019355353"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-                              Call Now: +91 80193 55353
-            </a>
-            <a
-              href="https://wa.me/918019355353"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-            >
-              WhatsApp Us
-            </a>
-          </div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 

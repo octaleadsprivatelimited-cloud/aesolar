@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
   Sun, 
   Calendar, 
@@ -42,6 +43,20 @@ const Blog: React.FC = () => {
   const featuredPost = articles.find(post => post.featured);
 
   return (
+    <>
+      <Helmet>
+        <title>Solar Energy Blog - Latest News, Guides & Tips | AE Solar</title>
+        <meta name="description" content="Read the latest solar energy blog posts, guides, and tips from AE Solar. Learn about solar installation, costs, subsidies, and success stories in East Godavari, Andhra Pradesh." />
+        <meta name="keywords" content="solar energy blog, solar installation blog, solar news East Godavari, solar guides, solar tips, solar success stories, PM solar scheme blog" />
+        <link rel="canonical" href="https://aesolarsystems.in/blog" />
+        <meta property="og:url" content="https://aesolarsystems.in/blog" />
+        <meta property="og:title" content="Solar Energy Blog - Latest News & Guides | AE Solar" />
+        <meta property="og:description" content="Read the latest solar energy blog posts, guides, and tips from AE Solar experts." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Solar Energy Blog - AE Solar" />
+        <meta name="twitter:description" content="Latest solar energy news, guides, and tips from solar experts." />
+      </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative text-white py-20 overflow-hidden">
@@ -310,6 +325,7 @@ const Blog: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

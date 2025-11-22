@@ -1,4 +1,4 @@
-# Solaris Innovations - Solar Panel Installation Website
+# AE Solar - Solar Panel Installation Website
 
 A professional, responsive website for a solar panel installation company operating in Andhra Pradesh, India.
 
@@ -8,7 +8,6 @@ A professional, responsive website for a solar panel installation company operat
 - **Responsive Design**: Mobile-first approach, works on all devices
 - **SEO Optimized**: Meta tags, structured data, and semantic HTML
 - **Cost Calculator**: Solar installation cost calculator with PM Solar Scheme subsidies
-- **WhatsApp Integration**: Floating WhatsApp button for instant contact
 - **Modern UI/UX**: Professional design with smooth animations
 - **Contact Forms**: Lead generation forms with validation
 - **Service Areas**: Coverage in 7 major cities of Andhra Pradesh
@@ -40,13 +39,7 @@ A professional, responsive website for a solar panel installation company operat
 
 ### Setup Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd solar-website
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
@@ -68,7 +61,6 @@ src/
 ├── components/          # Reusable UI components
 │   ├── Navbar.tsx      # Navigation bar
 │   ├── Footer.tsx      # Footer component
-│   └── WhatsAppButton.tsx # Floating WhatsApp button
 ├── pages/              # Page components
 │   ├── Home.tsx        # Homepage
 │   ├── Services.tsx    # Services page
@@ -94,7 +86,6 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+918019355353` throughout
 
 ## 📊 SEO Features
 
@@ -114,16 +105,6 @@ Update the following files to customize content:
 
 ## 🚀 Deployment
 
-### Netlify
-1. Connect your GitHub repository
-2. Set build command: `npm run build`
-3. Set publish directory: `build`
-
-### Vercel
-1. Import your GitHub repository
-2. Framework preset: Create React App
-3. Build command: `npm run build`
-
 ### Traditional Hosting
 1. Run `npm run build`
 2. Upload `build` folder contents to your web server
@@ -131,8 +112,6 @@ Update the following files to customize content:
 
 ## 📞 Contact Information
 
-- **Phone**: +91 80193 55353
-- **Email**: info@solarisinovations.in
 - **Service Areas**: Kakinada, Visakhapatnam, Rajahmundry
 
 ## 🔧 Configuration
@@ -140,9 +119,7 @@ Update the following files to customize content:
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Solaris Innovations
-REACT_APP_PHONE_NUMBER=+918019355353
-REACT_APP_EMAIL=info@solarisinovations.in
+REACT_APP_COMPANY_NAME=AE Solar
 ```
 
 ### Tailwind Configuration
@@ -174,11 +151,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+For contributions and collaboration, please contact us directly.
 
 ## 📄 License
 
@@ -186,11 +159,8 @@ This project is licensed under the MIT License.
 
 ## 🆘 Support
 
-For support and questions:
-
-- Phone: +91 80193 55353
-- WhatsApp: +91 80193 55353
+For support and questions, please use the contact form on the website.
 
 ---
 
-**Solaris Innovations** - Powering the future with solar energy! ☀️
+**AE Solar** - Powering the future with solar energy! ☀️

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
   Sun, 
   ChevronDown, 
@@ -102,6 +103,20 @@ const FAQ: React.FC = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Solar Panel FAQ - Common Questions About Solar Installation | AE Solar</title>
+        <meta name="description" content="Frequently asked questions about solar panel installation in East Godavari. Learn about costs, subsidies, maintenance, warranty, and more. Get answers from solar experts." />
+        <meta name="keywords" content="solar panel FAQ, solar installation questions, solar panel cost FAQ, PM solar scheme FAQ, solar maintenance FAQ, solar panel warranty FAQ East Godavari" />
+        <link rel="canonical" href="https://aesolarsystems.in/faq" />
+        <meta property="og:url" content="https://aesolarsystems.in/faq" />
+        <meta property="og:title" content="Solar Panel FAQ - Common Questions | AE Solar" />
+        <meta property="og:description" content="Get answers to frequently asked questions about solar panel installation, costs, subsidies, and maintenance." />
+        <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Solar Panel FAQ - AE Solar" />
+        <meta name="twitter:description" content="Common questions and answers about solar panel installation in East Godavari." />
+      </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
       <section className="relative text-white py-20 overflow-hidden">
@@ -213,27 +228,11 @@ const FAQ: React.FC = () => {
               Can't find the answer you're looking for? Our solar experts are here to help.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+918019355353"
-                className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
-              >
-                <Zap className="mr-2 h-5 w-5" />
-                Call Our Experts
-              </a>
-              <a
-                href="https://wa.me/918019355353"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border-2 border-yellow-500 hover:bg-yellow-500 hover:text-gray-900 text-yellow-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-              >
-                WhatsApp Us
-              </a>
-            </div>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 
