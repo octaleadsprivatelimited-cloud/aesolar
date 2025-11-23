@@ -46,8 +46,8 @@ const Blog: React.FC = () => {
     <>
       <Helmet>
         <title>Solar Energy Blog - Latest News, Guides & Tips | AE Solar</title>
-        <meta name="description" content="Read the latest solar energy blog posts, guides, and tips from AE Solar. Learn about solar installation, costs, subsidies, and success stories in East Godavari, Andhra Pradesh." />
-        <meta name="keywords" content="solar energy blog, solar installation blog, solar news East Godavari, solar guides, solar tips, solar success stories, PM solar scheme blog" />
+        <meta name="description" content="Read the latest solar energy blog posts, guides, and tips from AE Solar. Learn about solar installation, costs, subsidies, and success stories in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh." />
+        <meta name="keywords" content="solar energy blog, solar installation blog, solar news East Godavari, solar news West Godavari, solar news Visakhapatnam, solar guides, solar tips, solar success stories, PM solar scheme blog" />
         <link rel="canonical" href="https://aesolarsystems.in/blog" />
         <meta property="og:url" content="https://aesolarsystems.in/blog" />
         <meta property="og:title" content="Solar Energy Blog - Latest News & Guides | AE Solar" />

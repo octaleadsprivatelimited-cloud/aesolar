@@ -78,16 +78,16 @@ const Services: React.FC = () => {
     <>
       <Helmet>
         <title>Solar Services - Residential, Commercial & Industrial Solar Solutions | AE Solar</title>
-        <meta name="description" content="Comprehensive solar services in East Godavari: residential solar panels, commercial solar systems, industrial solar solutions, and solar maintenance. Professional installation with PM Solar Scheme subsidies." />
-        <meta name="keywords" content="residential solar East Godavari, commercial solar Kakinada, industrial solar Rajahmundry, solar maintenance, solar installation services, solar panel repair, solar system design" />
+        <meta name="description" content="Comprehensive solar services in East Godavari, West Godavari districts and Visakhapatnam (Vizag): residential solar panels, commercial solar systems, industrial solar solutions, and solar maintenance. Professional installation with PM Solar Scheme subsidies." />
+        <meta name="keywords" content="residential solar East Godavari, residential solar West Godavari, residential solar Visakhapatnam, commercial solar Kakinada, commercial solar Eluru, commercial solar Vizag, industrial solar Rajahmundry, industrial solar Bhimavaram, solar maintenance, solar installation services, solar panel repair, solar system design" />
         <link rel="canonical" href="https://aesolarsystems.in/services" />
         <meta property="og:url" content="https://aesolarsystems.in/services" />
         <meta property="og:title" content="Solar Services - Residential, Commercial & Industrial | AE Solar" />
-        <meta property="og:description" content="Comprehensive solar services in East Godavari: residential, commercial & industrial solar solutions with professional installation." />
+        <meta property="og:description" content="Comprehensive solar services in East Godavari, West Godavari districts and Visakhapatnam (Vizag): residential, commercial & industrial solar solutions with professional installation." />
         <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Solar Services - AE Solar" />
-        <meta name="twitter:description" content="Professional solar installation services for homes, businesses, and industries in East Godavari." />
+        <meta name="twitter:description" content="Professional solar installation services for homes, businesses, and industries in East Godavari, West Godavari districts and Visakhapatnam (Vizag)." />
       </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
@@ -115,8 +115,8 @@ const Services: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Comprehensive solar solutions for residential, commercial, and industrial needs across Andhra Pradesh. 
-            Expert solar panel installation with premium quality components in Visakhapatnam, Vijayawada, Guntur, Kakinada, Rajahmundry, Tirupati, and Anantapur.
+            Comprehensive solar solutions for residential, commercial, and industrial needs across East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh. 
+            Expert solar panel installation with premium quality components in Visakhapatnam, Eluru, Bhimavaram, Kakinada, Rajahmundry, Tanuku, Palakollu, and all towns across these districts.
           </motion.p>
         </div>
       </section>
@@ -129,7 +129,7 @@ const Services: React.FC = () => {
               Solar Installation Services
             </h2>
             <p className="text-xl text-gray-600">
-              Choose the perfect solar solution for your energy needs - from Visakhapatnam solar panels to Vijayawada solar systems, Guntur rooftop solar, and Kakinada solar power solutions
+              Choose the perfect solar solution for your energy needs - from Visakhapatnam solar panels to Eluru solar systems, Bhimavaram rooftop solar, Kakinada solar power solutions, Rajahmundry solar installations, and Tanuku solar systems
             </p>
           </div>
           

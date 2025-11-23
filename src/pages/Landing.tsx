@@ -51,9 +51,9 @@ const Landing: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Get Free Solar Quote - Solar Panel Installation in East Godavari | AE Solar</title>
-        <meta name="description" content="Get a free solar quote for your home or business in East Godavari. Professional solar panel installation with PM Solar Scheme subsidies. Save up to 90% on electricity bills." />
-        <meta name="keywords" content="free solar quote, solar panel quote East Godavari, solar installation quote, get solar quote, solar estimate, solar consultation" />
+        <title>Get Free Solar Quote - Solar Panel Installation in East Godavari, West Godavari & Visakhapatnam | AE Solar</title>
+        <meta name="description" content="Get a free solar quote for your home or business in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Professional solar panel installation with PM Solar Scheme subsidies. Save up to 90% on electricity bills." />
+        <meta name="keywords" content="free solar quote, solar panel quote East Godavari, solar panel quote West Godavari, solar panel quote Visakhapatnam, solar installation quote Vizag, get solar quote, solar estimate, solar consultation" />
         <link rel="canonical" href="https://aesolarsystems.in/landing" />
         <meta property="og:url" content="https://aesolarsystems.in/landing" />
         <meta property="og:title" content="Get Free Solar Quote - AE Solar" />

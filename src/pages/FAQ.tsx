@@ -106,8 +106,8 @@ const FAQ: React.FC = () => {
     <>
       <Helmet>
         <title>Solar Panel FAQ - Common Questions About Solar Installation | AE Solar</title>
-        <meta name="description" content="Frequently asked questions about solar panel installation in East Godavari. Learn about costs, subsidies, maintenance, warranty, and more. Get answers from solar experts." />
-        <meta name="keywords" content="solar panel FAQ, solar installation questions, solar panel cost FAQ, PM solar scheme FAQ, solar maintenance FAQ, solar panel warranty FAQ East Godavari" />
+        <meta name="description" content="Frequently asked questions about solar panel installation in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Learn about costs, subsidies, maintenance, warranty, and more. Get answers from solar experts." />
+        <meta name="keywords" content="solar panel FAQ, solar installation questions, solar panel cost FAQ, PM solar scheme FAQ, solar maintenance FAQ, solar panel warranty FAQ East Godavari, solar FAQ West Godavari, solar FAQ Visakhapatnam" />
         <link rel="canonical" href="https://aesolarsystems.in/faq" />
         <meta property="og:url" content="https://aesolarsystems.in/faq" />
         <meta property="og:title" content="Solar Panel FAQ - Common Questions | AE Solar" />
@@ -115,7 +115,7 @@ const FAQ: React.FC = () => {
         <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Solar Panel FAQ - AE Solar" />
-        <meta name="twitter:description" content="Common questions and answers about solar panel installation in East Godavari." />
+        <meta name="twitter:description" content="Common questions and answers about solar panel installation in East Godavari, West Godavari districts and Visakhapatnam (Vizag)." />
       </Helmet>
     <div className="pt-16">
       {/* Hero Section */}

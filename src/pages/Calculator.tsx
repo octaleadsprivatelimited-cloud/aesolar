@@ -42,8 +42,8 @@ const Calculator: React.FC = () => {
     <>
       <Helmet>
         <title>Solar Cost Calculator - Calculate Solar Installation Cost & Savings | AE Solar</title>
-        <meta name="description" content="Free solar cost calculator for East Godavari. Calculate solar panel installation cost, savings, ROI, and PM Solar Scheme subsidies. Get instant quote for residential, commercial & industrial solar systems." />
-        <meta name="keywords" content="solar cost calculator, solar installation cost calculator, solar panel price calculator, solar savings calculator, PM solar scheme calculator, solar ROI calculator East Godavari" />
+        <meta name="description" content="Free solar cost calculator for East Godavari, West Godavari districts and Visakhapatnam (Vizag). Calculate solar panel installation cost, savings, ROI, and PM Solar Scheme subsidies. Get instant quote for residential, commercial & industrial solar systems." />
+        <meta name="keywords" content="solar cost calculator, solar installation cost calculator, solar panel price calculator, solar savings calculator, PM solar scheme calculator, solar ROI calculator East Godavari, solar calculator West Godavari, solar calculator Visakhapatnam" />
         <link rel="canonical" href="https://aesolarsystems.in/solar-calculator" />
         <meta property="og:url" content="https://aesolarsystems.in/solar-calculator" />
         <meta property="og:title" content="Solar Cost Calculator - Calculate Installation Cost & Savings" />

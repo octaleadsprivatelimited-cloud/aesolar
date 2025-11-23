@@ -49,17 +49,17 @@ const About: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>About AE Solar - Leading Solar Company in East Godavari, Andhra Pradesh</title>
-        <meta name="description" content="AE Solar is a leading solar panel installation company in East Godavari, Andhra Pradesh. 10+ years of experience, 500+ installations across Rajahmundry, Kakinada, Amalapuram and all towns in East Godavari district." />
-        <meta name="keywords" content="about AE Solar, solar company East Godavari, solar installation company Kakinada, solar experts Rajahmundry, solar panel installers Andhra Pradesh" />
+        <title>About AE Solar - Leading Solar Company in East Godavari, West Godavari & Visakhapatnam, Andhra Pradesh</title>
+        <meta name="description" content="AE Solar is a leading solar panel installation company in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh. 10+ years of experience, 500+ installations across Rajahmundry, Kakinada, Amalapuram, Eluru, Bhimavaram, Visakhapatnam and all towns in these districts." />
+        <meta name="keywords" content="about AE Solar, solar company East Godavari, solar company West Godavari, solar installation Visakhapatnam, solar installation Vizag, solar installation company Kakinada, solar experts Rajahmundry, solar panel installers Andhra Pradesh" />
         <link rel="canonical" href="https://aesolarsystems.in/about" />
         <meta property="og:url" content="https://aesolarsystems.in/about" />
-        <meta property="og:title" content="About AE Solar - Leading Solar Company in East Godavari" />
-        <meta property="og:description" content="AE Solar: 10+ years of experience, 500+ installations across East Godavari district. Professional solar solutions with PM Solar Scheme subsidies." />
+        <meta property="og:title" content="About AE Solar - Leading Solar Company in East Godavari, West Godavari & Visakhapatnam" />
+        <meta property="og:description" content="AE Solar: 10+ years of experience, 500+ installations across East Godavari, West Godavari districts and Visakhapatnam (Vizag). Professional solar solutions with PM Solar Scheme subsidies." />
         <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About AE Solar" />
-        <meta name="twitter:description" content="Leading solar company in East Godavari with 10+ years of experience and 500+ successful installations." />
+        <meta name="twitter:description" content="Leading solar company in East Godavari, West Godavari districts and Visakhapatnam (Vizag) with 10+ years of experience and 500+ successful installations." />
       </Helmet>
     <div className="pt-16">
       {/* Hero Section */}
@@ -87,8 +87,8 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Leading solar energy company in East Godavari, Andhra Pradesh, serving Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram, and all towns and villages across East Godavari district. Committed to providing sustainable 
-            energy solutions, solar panel installation, and exceptional customer service across the state.
+            Leading solar energy company in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh, serving Rajahmundry, Kakinada, Amalapuram, Visakhapatnam, Eluru, Bhimavaram, Tanuku, Palakollu, Tuni, Peddapuram, Pithapuram, and all towns and villages across these districts. Committed to providing sustainable 
+            energy solutions, solar panel installation, and exceptional customer service across the region.
           </motion.p>
         </div>
       </section>
@@ -247,12 +247,12 @@ const About: React.FC = () => {
               Service Areas
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 px-4">
-              We proudly serve these cities, towns, and villages in East Godavari, Andhra Pradesh
+              We proudly serve these cities, towns, and villages in East Godavari, West Godavari districts and Visakhapatnam, Andhra Pradesh
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 lg:gap-6">
-            {['Rajahmundry', 'Kakinada', 'Amalapuram', 'Tuni', 'Peddapuram', 'Pithapuram', 'Mandapeta', 'Razole', 'Ramachandrapuram', 'Mummidivaram', 'Kothapeta', 'Samalkot', 'Yeleswaram', 'Gollaprolu', 'Tallarevu', 'Uppalaguptam', 'Malikipuram', 'Allavaram', 'Katrenikona', 'I. Polavaram', 'Devipatnam', 'Maredumilli', 'Y. Ramavaram', 'Addateegala', 'Rajanagaram', 'Anaparthy', 'Kadiam', 'Sankhavaram', 'Kotananduru', 'Alamuru', 'Atreyapuram', 'Ravulapalem', 'Kapileswarapuram', 'Karapa', 'Thondangi', 'Sakhinetipalli', 'Ainavilli', 'Ambajipeta'].map((city, index) => (
+            {['Rajahmundry', 'Kakinada', 'Amalapuram', 'Visakhapatnam', 'Vizag', 'Eluru', 'Bhimavaram', 'Tanuku', 'Palakollu', 'Tadepalligudem', 'Nidadavole', 'Tuni', 'Peddapuram', 'Pithapuram', 'Mandapeta', 'Razole', 'Ramachandrapuram', 'Mummidivaram', 'Kothapeta', 'Samalkot', 'Yeleswaram', 'Gollaprolu', 'Tallarevu', 'Uppalaguptam', 'Malikipuram', 'Allavaram', 'Katrenikona', 'I. Polavaram', 'Devipatnam', 'Maredumilli', 'Y. Ramavaram', 'Addateegala', 'Rajanagaram', 'Anaparthy', 'Kadiam', 'Sankhavaram', 'Kotananduru', 'Alamuru', 'Atreyapuram', 'Ravulapalem', 'Kapileswarapuram', 'Karapa', 'Thondangi', 'Sakhinetipalli', 'Ainavilli', 'Ambajipeta'].map((city, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.8 }}

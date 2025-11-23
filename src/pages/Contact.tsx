@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin className="h-8 w-8 text-yellow-500" />,
       title: "Service Areas",
-      details: ["Rajahmundry", "Kakinada", "Amalapuram", "Tuni", "Peddapuram"],
+      details: ["Rajahmundry", "Kakinada", "Amalapuram", "Visakhapatnam", "Vizag", "Eluru", "Bhimavaram", "Tanuku", "Tuni", "Peddapuram"],
       action: "#"
     },
     {
@@ -73,6 +73,8 @@ const Contact: React.FC = () => {
 
   const cities = [
     'Rajahmundry', 'Kakinada', 'Amalapuram', 
+    'Visakhapatnam', 'Vizag', 'Eluru', 'Bhimavaram',
+    'Tanuku', 'Palakollu', 'Tadepalligudem', 'Nidadavole',
     'Tuni', 'Peddapuram', 'Pithapuram',
     'Mandapeta', 'Razole', 'Ramachandrapuram',
     'Mummidivaram', 'Kothapeta', 'Samalkot',
@@ -98,13 +100,13 @@ const Contact: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Contact AE Solar - Get Free Solar Quote in East Godavari | Call +91 98493 68733</title>
-        <meta name="description" content="Contact AE Solar for free solar consultation in East Godavari. Call +91 98493 68733 or +91 89190 28413. Visit us at Kakinada office. Get free quote for solar panel installation with PM Solar Scheme subsidies." />
-        <meta name="keywords" content="contact AE Solar, solar consultation East Godavari, solar quote Kakinada, solar installation contact, free solar consultation, solar expert contact" />
+        <title>Contact AE Solar - Get Free Solar Quote in East Godavari, West Godavari & Visakhapatnam | Call +91 98493 68733</title>
+        <meta name="description" content="Contact AE Solar for free solar consultation in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Call +91 98493 68733 or +91 89190 28413. Visit us at Kakinada office. Get free quote for solar panel installation with PM Solar Scheme subsidies." />
+        <meta name="keywords" content="contact AE Solar, solar consultation East Godavari, solar consultation West Godavari, solar consultation Visakhapatnam, solar quote Kakinada, solar quote Eluru, solar quote Vizag, solar installation contact, free solar consultation, solar expert contact" />
         <link rel="canonical" href="https://aesolarsystems.in/contact" />
         <meta property="og:url" content="https://aesolarsystems.in/contact" />
         <meta property="og:title" content="Contact AE Solar - Get Free Solar Quote" />
-        <meta property="og:description" content="Contact AE Solar for free solar consultation in East Godavari. Call +91 98493 68733. Get free quote for solar panel installation." />
+        <meta property="og:description" content="Contact AE Solar for free solar consultation in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Call +91 98493 68733. Get free quote for solar panel installation." />
         <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact AE Solar" />
@@ -384,7 +386,7 @@ const Contact: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Service Areas in East Godavari, Andhra Pradesh
+              Service Areas in East Godavari, West Godavari Districts & Visakhapatnam, Andhra Pradesh
             </h2>
             <p className="text-xl text-gray-300">
               We provide solar installation services across these major cities

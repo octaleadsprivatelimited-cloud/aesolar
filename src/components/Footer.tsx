@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                 <span className="text-lg lg:text-xl font-bold">AE Solar</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
-                Leading solar energy solutions provider in East Godavari, Andhra Pradesh - serving Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, and all towns and villages across East Godavari district. 
+                Leading solar energy solutions provider in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh - serving Rajahmundry, Kakinada, Amalapuram, Visakhapatnam, Eluru, Bhimavaram, Tanuku, Tuni, Peddapuram, and all towns and villages across these districts. 
                 Professional solar panel installation with government subsidy assistance and PM solar scheme benefits.
               </p>
               <div className="flex space-x-4" />
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                   <MapPin className="h-4 w-4 text-yellow-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-gray-300">Flat No.FT2, B-Block, Sri sai Parimala Appartments, Nagamalli Thota Junction, Kakinada-533003</p>
-                    <p className="text-gray-400 text-xs">Serving customers across East Godavari district and all over India.</p>
+                    <p className="text-gray-400 text-xs">Serving customers across East Godavari, West Godavari districts, Visakhapatnam (Vizag) and all over India.</p>
                   </div>
                 </div>
               </div>

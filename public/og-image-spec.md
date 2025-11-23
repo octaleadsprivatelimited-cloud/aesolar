@@ -6,7 +6,7 @@
 - **File Size**: Under 1MB
 - **Content**: 
   - Logo: AE Solar with sun icon
-  - Tagline: "Leading Solar Installation in East Godavari, Andhra Pradesh"
+  - Tagline: "Leading Solar Installation in East Godavari, West Godavari & Visakhapatnam, Andhra Pradesh"
   - Highlight: "₹78,000 Government Subsidy Available"
   - Visual: Solar panels with blue sky background
 
@@ -40,7 +40,7 @@
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact AE Solar - 35+ Cities, Towns & Villages Across East Godavari"
+- **Text**: "Contact AE Solar - Serving East Godavari, West Godavari Districts & Visakhapatnam (Vizag)"
 
 ## Social Media Platforms
 
@@ -78,7 +78,7 @@
 
 ### Branding
 - **Logo**: Always include AE Solar logo
-- **Tagline**: "Leading Solar Installation in East Godavari, Andhra Pradesh"
+- **Tagline**: "Leading Solar Installation in East Godavari, West Godavari & Visakhapatnam, Andhra Pradesh"
 - **Contact**: +91 98493 68733, +91 89190 28413
 - **Email**: info@aesolarsystems.in
 - **Website**: aesolarsystems.in

@@ -32,6 +32,6 @@
 
 /* SITE */
     Name: AE Solar
-    Description: Leading solar panel installation company in East Godavari, Andhra Pradesh
-    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Andhra Pradesh, East Godavari, Rajahmundry, Kakinada, Amalapuram, Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram
+    Description: Leading solar panel installation company in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh
+    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Andhra Pradesh, East Godavari, West Godavari, Visakhapatnam, Vizag, Rajahmundry, Kakinada, Amalapuram, Eluru, Bhimavaram, Tanuku, Palakollu, Tuni, Peddapuram, Pithapuram, Mandapeta, Razole, Ramachandrapuram
     Author: AE Solar Team

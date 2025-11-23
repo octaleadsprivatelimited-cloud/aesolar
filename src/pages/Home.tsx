@@ -49,24 +49,24 @@ const Home: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>AE Solar - Leading Solar Panel Installation in East Godavari, Andhra Pradesh</title>
-        <meta name="description" content="AE Solar is the leading solar panel installation company in East Godavari, Andhra Pradesh. Professional residential, commercial & industrial solar solutions in Rajahmundry, Kakinada, Amalapuram and all towns across East Godavari district. Get PM Solar Scheme subsidies up to ₹78,000." />
-        <meta name="keywords" content="solar panel installation East Godavari, solar panels Rajahmundry, solar installation Kakinada, solar panels Amalapuram, solar energy East Godavari district, solar companies Andhra Pradesh, PM solar scheme, solar subsidy East Godavari, rooftop solar panels, residential solar, commercial solar, industrial solar" />
+        <title>AE Solar - Leading Solar Panel Installation in East Godavari, West Godavari & Visakhapatnam, Andhra Pradesh</title>
+        <meta name="description" content="AE Solar is the leading solar panel installation company in East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh. Professional residential, commercial & industrial solar solutions in Rajahmundry, Kakinada, Amalapuram, Eluru, Bhimavaram, Visakhapatnam and all towns across these districts. Get PM Solar Scheme subsidies up to ₹78,000." />
+        <meta name="keywords" content="solar panel installation East Godavari, solar panels West Godavari, solar installation Visakhapatnam, solar panels Vizag, solar panels Rajahmundry, solar installation Kakinada, solar panels Amalapuram, solar installation Eluru, solar panels Bhimavaram, solar energy Andhra Pradesh, solar companies Andhra Pradesh, PM solar scheme, solar subsidy, rooftop solar panels, residential solar, commercial solar, industrial solar" />
         <link rel="canonical" href="https://aesolarsystems.in/" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://aesolarsystems.in/" />
-        <meta property="og:title" content="AE Solar - Leading Solar Panel Installation in East Godavari, Andhra Pradesh" />
-        <meta property="og:description" content="Professional solar panel installation services in East Godavari district. Residential, commercial & industrial solar solutions with PM Solar Scheme subsidies." />
+        <meta property="og:title" content="AE Solar - Leading Solar Panel Installation in East Godavari, West Godavari & Visakhapatnam, Andhra Pradesh" />
+        <meta property="og:description" content="Professional solar panel installation services in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Residential, commercial & industrial solar solutions with PM Solar Scheme subsidies." />
         <meta property="og:image" content="https://aesolarsystems.in/og-image.jpg" />
         <meta property="og:site_name" content="AE Solar" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://aesolarsystems.in/" />
-        <meta name="twitter:title" content="AE Solar - Leading Solar Panel Installation in East Godavari" />
-        <meta name="twitter:description" content="Professional solar panel installation services in East Godavari district. Get PM Solar Scheme subsidies and save on electricity bills." />
+        <meta name="twitter:title" content="AE Solar - Leading Solar Panel Installation in East Godavari, West Godavari & Visakhapatnam" />
+        <meta name="twitter:description" content="Professional solar panel installation services in East Godavari, West Godavari districts and Visakhapatnam (Vizag). Get PM Solar Scheme subsidies and save on electricity bills." />
         <meta name="twitter:image" content="https://aesolarsystems.in/og-image.jpg" />
         
         {/* Structured Data */}
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
               "@type": "PostalAddress",
               "streetAddress": "Flat No.FT2, B-Block, Sri sai Parimala Appartments, Nagamalli Thota Junction",
               "addressLocality": "Kakinada",
-              "addressRegion": "East Godavari",
+              "addressRegion": "East Godavari, West Godavari, Visakhapatnam",
               "postalCode": "533003",
               "addressCountry": "IN"
             },
@@ -92,10 +92,11 @@ const Home: React.FC = () => {
               "latitude": 16.9333,
               "longitude": 82.2167
             },
-            "areaServed": {
-              "@type": "City",
-              "name": "East Godavari District"
-            },
+            "areaServed": [
+              "East Godavari District",
+              "West Godavari District",
+              "Visakhapatnam District"
+            ],
             "serviceType": "Solar Panel Installation",
             "priceRange": "₹₹"
           })}
@@ -158,7 +159,7 @@ const Home: React.FC = () => {
               </div>
               
               <p className="text-xl text-gray-200 mb-8">
-                A leading solar panel installation company from East Godavari, Andhra Pradesh, our expertise and trusted services now reach customers all over India. Save money, save the environment, and enjoy reliable clean energy with our comprehensive rooftop solar panels and advanced energy solutions.
+                A leading solar panel installation company from East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh, our expertise and trusted services now reach customers all over India. Save money, save the environment, and enjoy reliable clean energy with our comprehensive rooftop solar panels and advanced energy solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -219,7 +220,7 @@ const Home: React.FC = () => {
               Solar Installation Showcase
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See our professional solar panel installations across East Godavari, Andhra Pradesh - from Rajahmundry solar panels to Kakinada solar systems, Amalapuram rooftop solar, and Tuni solar power solutions
+              See our professional solar panel installations across East Godavari, West Godavari districts and Visakhapatnam (Vizag), Andhra Pradesh - from Rajahmundry solar panels to Kakinada solar systems, Amalapuram rooftop solar, Eluru solar installations, Bhimavaram solar systems, Visakhapatnam solar panels, and Tuni solar power solutions
             </p>
           </div>
           
@@ -249,7 +250,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Homes</h4>
-                <p className="text-gray-600 text-sm">Reduce electricity bills by up to 90% with residential solar panels, rooftop solar systems, and home solar power solutions in Rajahmundry, Kakinada, and across East Godavari district</p>
+                <p className="text-gray-600 text-sm">Reduce electricity bills by up to 90% with residential solar panels, rooftop solar systems, and home solar power solutions in Rajahmundry, Kakinada, Visakhapatnam, Eluru, Bhimavaram, and across East Godavari, West Godavari districts</p>
               </div>
             </motion.div>
 
@@ -279,7 +280,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Business Benefits</h4>
-                <p className="text-gray-600 text-sm">Cut operational costs and improve your business sustainability with commercial solar panels, business solar systems, and office solar power solutions in Amalapuram, Tuni, and across East Godavari district</p>
+                <p className="text-gray-600 text-sm">Cut operational costs and improve your business sustainability with commercial solar panels, business solar systems, and office solar power solutions in Amalapuram, Tuni, Visakhapatnam, Eluru, Bhimavaram, and across East Godavari, West Godavari districts</p>
               </div>
             </motion.div>
 
@@ -308,7 +309,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Industrial Power</h4>
-                <p className="text-gray-600 text-sm">Massive energy savings for factories and industrial facilities with industrial solar panels, factory solar systems, and large-scale solar power solutions in Peddapuram, Pithapuram, and across East Godavari district</p>
+                <p className="text-gray-600 text-sm">Massive energy savings for factories and industrial facilities with industrial solar panels, factory solar systems, and large-scale solar power solutions in Peddapuram, Pithapuram, Visakhapatnam, Eluru, and across East Godavari, West Godavari districts</p>
               </div>
             </motion.div>
           </div>
@@ -323,7 +324,7 @@ const Home: React.FC = () => {
               Why Choose AE Solar?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive solar solutions with unmatched quality and service - from Rajahmundry solar installation to Kakinada solar maintenance, Amalapuram solar repair, and Tuni solar consultation across East Godavari district
+              We provide comprehensive solar solutions with unmatched quality and service - from Rajahmundry solar installation to Kakinada solar maintenance, Amalapuram solar repair, Visakhapatnam solar systems, Eluru solar installation, Bhimavaram solar consultation, and Tuni solar consultation across East Godavari, West Godavari districts and Visakhapatnam (Vizag)
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
